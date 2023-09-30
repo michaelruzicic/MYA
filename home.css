@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.header{
+    background: radial-gradient(#fff, #c9c9c9);
+    min-height: 100vh;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 8px;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+  
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 200px;
+    
+    
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 40px 30;
+    margin-top: -150px;
+   
+}
+.col-2 h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-2 h1:hover{
+    transition: 1s;
+    transform: scale(1.5);
+    margin-left: 120px;
+
+}
+.col-2 p{
+    margin: 30px 0;
+}
+.col-2 p:hover{
+    transition: 1s;
+    transform: scale(1.5);
+    margin-left: 120px;
+}
+.button{
+    display: inline-block;
+    background: #8b8b8b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.button:hover{
+    border: #b1b1b1;
+    background: #b1b1b1;
+    transition: 1s;
+    transform: scale(1.5);
+    margin-left: 20px;
+
+
+}
+.header .row{
+    margin-top: 80px;
+}
+.product-home{
+    width: 100%;
+    min-height: 130vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.col-3{
+  
+   flex-basis: 43%; 
+   flex-grow: 1;
+   background-image: url(images/productshowcase_00000.png);
+   background-size: cover;
+   background-position: center;
+   
+}
+.col-4{
+    flex-basis: 57%;
+    flex-grow: 1;
+    background: radial-gradient(#fff, #c7c7c7);
+
+}
+.right-text{
+    margin-top: 220px;
+    margin-left: 30px;
+   
+}
+.right-text h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.right-text h2:hover{
+    transition: 1s;
+    transform: scale(1.5);
+    margin-left: 132px;
+}
+.right-text h3{
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #333;
+}
+.right-text h3:hover{
+    transition: 1s;
+    transform: scale(1.5);
+    margin-left: 137px;
+}
+.right-text p{
+font-size: 15px;
+margin-bottom: 30px;
+color: #555;
+}
+.right-text p:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    margin-left: 15px;
+}
+.right-text a{
+    display: inline-block;
+    background: #8b8b8b;
+    color: white;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.right-text a:hover{
+    border: #b1b1b1;
+    background: #b1b1b1;
+    transition: 1s;    
+    transform: scale(1.5);
+    margin-left: 40px;
+
+}
+.bottomkontakt{
+min-height: 370px;
+width: 100%;
+background-image: linear-gradient(rgba(92, 92, 92, 0.7),rgba(94, 94, 94, 0.7)),url(images/selective-myopia-gc0db6cbba_1280\ \(2\).jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.kontakt-text{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+.kontakt-text h1{
+    font-size: 50px;
+}
+.kontakt-text h1:hover{
+    transition: 1s;
+    transform: scale(1.25);
+    margin-left: 5px;
+}
+.kontakt-text p{
+    margin: 10px 0 40px;
+    font-size: 13px;
+    color: white;
+}
+.kontakt-text p:hover{
+    transition: 1s;
+    transform: scale(1.25);
+}
+.kontakt-button{
+    display: inline-block;
+    background: #8b8b8b;
+    color: white;
+    padding: 6px 30px;
+    border-radius: 30px;
+}
+.kontakt-button:hover{
+    border: #b1b1b1;
+    background: #b1b1b1;
+    transition: 1s;
+    transform: scale(1.5);
+}
+.footer{
+  
+    width: 100%;
+    padding: 100px 16%;
+    background: rgb(73, 73, 73);
+    color: #efefef;
+    display: flex;
+    height: 360px;
+}
+.footer div{
+    text-align: center;
+}
+.col-6{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-5 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+.col-6 button{
+    display: inline-block;
+    background: #8b8b8b;
+    color: white;
+    padding: 6px 30px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.col-7 h3{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.col-7 p{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-top: 47px;
+}

@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bottomkontakt{
+    min-height: 390px;
+    width: 100%;
+    background-image: linear-gradient(rgba(92, 92, 92, 0.7),rgba(94, 94, 94, 0.7)), url(images/selective-myopia-gc0db6cbba_1280\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    .kontakt-text{
+        width: 90%;
+        color: white;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        text-align: center;
+    }
+    .kontakt-text h1{
+        font-size: 60px;
+    }
+    .kontakt-text h1:hover{
+        transition: 1s;
+        transform: scale(1.25);
+        margin-left: 5px;
+    }
+    .kontakt-text p{
+        margin: 10px 0 40px;
+        font-size: 15px;
+        color: white;
+    }
+    .kontakt-text p:hover{
+        transition: 1s;
+        transform: scale(1.25);
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    .header{
+        background: radial-gradient(#fff, #c9c9c9);
+        min-height: 100vh;
+        
+    }
+    nav{
+        flex: 1;
+        text-align: right;
+        
+    }
+    nav ul{
+        display: inline-block;
+        list-style-type: none;
+        margin-bottom: 8px;
+        
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    p{
+        color: #fff;
+    }
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+      
+    }
+    .navbar{
+        display: flex;
+    align-items: center;
+    padding: 40px;
+    }
+    .container2{
+  width: 80%;
+  margin: 50px auto;
+    }
+    body{
+        background: radial-gradient(rgb(133, 133, 133), #4c4c4c);
+        font-size: 14px;
+    }
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #a2a2a2 
+}
+.container2 h1{
+margin-bottom: 10px;
+color: white;
+}
+.container2 p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px
+
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:gray
+}
+button{
+    background:#949494;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    height: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(122, 122, 122, 0.696);
+}
+.contact-left h3{
+  
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+  
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
